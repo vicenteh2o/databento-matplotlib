@@ -14,7 +14,7 @@ if not api_key:
 client = db.Historical(api_key)
 
 dataset = "GLBX.MDP3"
-symbols = ["ZC.c.0", "ZS.c.0", "ZW.c.0"]  # Try with 'c' roll rule (calendar roll)
+symbols = ["ZC.c.4", "ZS.c.4", "ZW.c.4"]  # Try with 'c' roll rule (calendar roll)
 start = "2024"
 
 data = client.timeseries.get_range(
